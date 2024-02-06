@@ -86,9 +86,8 @@ body {
   max-width: 850px;
 }
 
-header {
+p.below-header {
   margin-bottom: 40px;
-  padding: var(--mobileContainerPadding);
 }
 
 main {
@@ -144,7 +143,7 @@ section:last-of-type {
 .attribution {
   font-size: 11px;
   text-align: center;
-  padding-bottom: 15px;
+  padding: 15px;
 }
 
 .attribution a {
@@ -156,7 +155,7 @@ section:last-of-type {
 @media (min-width: 768px) {
   .content-container {
     border-radius: var(--containerBorderRadius);
-    margin: 100px auto;
+    margin: 85px auto;
     padding: var(--containerPadding);
   }
 
